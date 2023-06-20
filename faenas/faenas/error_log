@@ -1,0 +1,48 @@
+[10-Jun-2022 03:20:33 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:20:33 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:20:47 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:20:47 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:21:50 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:21:50 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:22:03 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:22:03 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:22:56 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/principal.php on line 10
+[10-Jun-2022 03:22:56 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/principal.php on line 10
+[09-Jun-2022 23:23:44 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[09-Jun-2022 23:24:33 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[22-Jun-2022 23:23:18 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[28-Jun-2022 21:25:05 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[28-Jun-2022 23:30:27 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[28-Jun-2022 23:30:27 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[29-Jun-2022 00:17:19 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[29-Jun-2022 00:17:19 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[29-Jun-2022 01:54:10 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[29-Jun-2022 01:54:10 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[30-Jun-2022 22:50:23 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[30-Jun-2022 22:50:23 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[01-Jul-2022 02:10:44 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[01-Jul-2022 02:10:44 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[01-Jul-2022 10:19:16 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[01-Jul-2022 10:19:16 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[03-Jul-2022 13:10:55 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[03-Jul-2022 13:10:55 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[10-Jul-2022 19:11:38 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[10-Jul-2022 19:11:38 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[18-Jul-2022 22:06:30 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[18-Jul-2022 22:06:30 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[19-Jul-2022 00:02:48 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[19-Jul-2022 00:02:48 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[27-Jul-2022 00:19:33 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[27-Jul-2022 00:19:33 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[25-Aug-2022 23:53:24 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[25-Aug-2022 23:53:24 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[08-Sep-2022 17:00:30 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[08-Sep-2022 17:00:30 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[29-Sep-2022 09:01:37 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[29-Sep-2022 09:01:37 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[10-Oct-2022 18:14:55 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[10-Oct-2022 18:14:55 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[15-Oct-2022 23:01:35 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[15-Oct-2022 23:01:35 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172
+[19-Oct-2022 11:34:48 America/Santiago] PHP Notice:  Undefined index: nombre in /home/pactive/public_html/faenas/principal.php on line 172
+[19-Oct-2022 11:34:48 America/Santiago] PHP Notice:  Undefined index: faena in /home/pactive/public_html/faenas/principal.php on line 172

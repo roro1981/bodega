@@ -1,0 +1,27 @@
+[10-Jun-2022 03:56:10 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:10 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:12 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:12 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:12 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:12 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:17 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:17 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:30 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:56:30 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:57:29 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:57:29 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 3
+[10-Jun-2022 03:57:56 UTC] PHP Warning:  require(includes/functions.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 6
+[10-Jun-2022 03:57:56 UTC] PHP Fatal error:  require(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 6
+[10-Jun-2022 03:58:33 UTC] PHP Notice:  Undefined variable: link in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 22
+[10-Jun-2022 03:58:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 22
+[10-Jun-2022 03:58:33 UTC] PHP Notice:  Undefined variable: link in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 22
+[10-Jun-2022 03:58:33 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 22
+[10-Jun-2022 03:59:34 UTC] PHP Notice:  Undefined variable: etiquetas in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 38
+[10-Jun-2022 03:59:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 38
+[29-Jun-2022 05:54:19 UTC] PHP Notice:  Undefined index: idfa in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 145
+[29-Jun-2022 05:56:15 UTC] PHP Notice:  Undefined index: idfa in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 145
+[29-Jun-2022 05:57:13 UTC] PHP Notice:  Undefined index: idfa in /home/pactive/public_html/faenas/plantillas/crea_pedidos.php on line 145
+[19-Jul-2022 04:23:17 UTC] PHP Notice:  Undefined index: idfa in /home/pactive/public_html/faenas/plantillas/consumo_faena.php on line 189
+[26-Aug-2022 03:28:34 UTC] PHP Notice:  Undefined index: id_faena in /home/pactive/public_html/faenas/plantillas/consumo_faena.php on line 191
+[26-Aug-2022 03:28:37 UTC] PHP Notice:  Undefined index: id_faena in /home/pactive/public_html/faenas/plantillas/consumo_faena.php on line 191
+[26-Aug-2022 03:28:40 UTC] PHP Notice:  Undefined index: id_faena in /home/pactive/public_html/faenas/plantillas/consumo_faena.php on line 191

@@ -1,0 +1,370 @@
+[10-Jun-2022 03:19:32 UTC] PHP Warning:  require(../includes/Conexion.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:19:32 UTC] PHP Fatal error:  require(): Failed opening required '../includes/Conexion.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:19:46 UTC] PHP Warning:  require(../includes/Conexion.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:19:46 UTC] PHP Fatal error:  require(): Failed opening required '../includes/Conexion.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:20:32 UTC] PHP Warning:  require(../includes/Conexion.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:20:32 UTC] PHP Fatal error:  require(): Failed opening required '../includes/Conexion.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:20:47 UTC] PHP Warning:  require(../includes/Conexion.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:20:47 UTC] PHP Fatal error:  require(): Failed opening required '../includes/Conexion.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:21:49 UTC] PHP Warning:  require(../includes/Conexion.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:21:49 UTC] PHP Fatal error:  require(): Failed opening required '../includes/Conexion.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:22:03 UTC] PHP Warning:  require(../includes/Conexion.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:22:03 UTC] PHP Fatal error:  require(): Failed opening required '../includes/Conexion.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:22:45 UTC] PHP Warning:  require(../includes/Conexion.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:22:45 UTC] PHP Fatal error:  require(): Failed opening required '../includes/Conexion.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 5
+[10-Jun-2022 03:23:37 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : SELECT * from usuarios_faenas where nombre_usuario='rpanes' and pass_usuario='48d3a2a04839525354431c71476994b5' and estado_usuario=1 in /home/pactive/public_html/faenas/includes/Conexion.php:27
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/UsersDao.php(12): Conexion->consult('SELECT * from u...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_login.php(14): usersDao->traeUsuario('rpanes', 'roro1981')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 27
+[10-Jun-2022 03:23:52 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : SELECT * from usuarios_faenas where nombre_usuario='rpanes' and pass_usuario='48d3a2a04839525354431c71476994b5' and estado_usuario=1 in /home/pactive/public_html/faenas/includes/Conexion.php:27
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/UsersDao.php(12): Conexion->consult('SELECT * from u...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_login.php(14): usersDao->traeUsuario('rpanes', 'roro1981')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 27
+[28-Jun-2022 03:20:35 UTC] PHP Notice:  Undefined index: idproductos in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:20:35 UTC] PHP Notice:  Undefined index: nom_cat in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 19
+[28-Jun-2022 03:20:35 UTC] PHP Notice:  Undefined index: idproductos in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:20:35 UTC] PHP Notice:  Undefined index: nom_cat in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 19
+[28-Jun-2022 03:20:35 UTC] PHP Notice:  Undefined index: idproductos in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:20:35 UTC] PHP Notice:  Undefined index: nom_cat in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 19
+[28-Jun-2022 03:21:26 UTC] PHP Notice:  Undefined index: idproductos in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:21:26 UTC] PHP Notice:  Undefined index: nom_cat in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 19
+[28-Jun-2022 03:21:26 UTC] PHP Notice:  Undefined index: idproductos in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:21:26 UTC] PHP Notice:  Undefined index: nom_cat in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 19
+[28-Jun-2022 03:21:26 UTC] PHP Notice:  Undefined index: idproductos in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:21:26 UTC] PHP Notice:  Undefined index: nom_cat in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 19
+[28-Jun-2022 03:40:21 UTC] PHP Notice:  Undefined variable: prod2 in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:40:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function traeStock() on null in /home/pactive/public_html/faenas/ajax/ajax_productos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:40:32 UTC] PHP Notice:  Undefined variable: prod2 in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[28-Jun-2022 03:40:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function traeStock() on null in /home/pactive/public_html/faenas/ajax/ajax_productos.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 15
+[29-Jun-2022 03:30:30 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[29-Jun-2022 04:17:23 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[29-Jun-2022 05:54:16 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[29-Jun-2022 05:59:29 UTC] PHP Warning:  require(resources/pdf/fpdf.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 9
+[29-Jun-2022 05:59:29 UTC] PHP Fatal error:  require(): Failed opening required 'resources/pdf/fpdf.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 9
+[29-Jun-2022 05:59:42 UTC] PHP Warning:  require(resources/pdf/fpdf.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 9
+[29-Jun-2022 05:59:42 UTC] PHP Fatal error:  require(): Failed opening required 'resources/pdf/fpdf.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 9
+[29-Jun-2022 05:59:53 UTC] PHP Warning:  require(resources/pdf/fpdf.php): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 9
+[29-Jun-2022 05:59:53 UTC] PHP Fatal error:  require(): Failed opening required 'resources/pdf/fpdf.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 9
+[29-Jun-2022 06:00:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:00:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:01:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:01:07 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : INSERT INTO movimientos (faena,usuario) values(,1)( You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1)' at line 1 ) in /home/pactive/public_html/faenas/includes/Conexion.php:67
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(45): Conexion->insert('INSERT INTO mov...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(37): productosDao->grabaPedido(NULL, '1')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 67
+[29-Jun-2022 06:01:46 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:01:46 UTC] PHP Notice:  Undefined index: idfa in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 34
+[29-Jun-2022 06:01:47 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : INSERT INTO movimientos (faena,usuario) values(,1)( You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1)' at line 1 ) in /home/pactive/public_html/faenas/includes/Conexion.php:67
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(45): Conexion->insert('INSERT INTO mov...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(37): productosDao->grabaPedido(NULL, '1')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 67
+[29-Jun-2022 06:02:55 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:02:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function traeIdProducto() in /home/pactive/public_html/faenas/ajax/ajax_productos.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 40
+[29-Jun-2022 06:03:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:03:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function traeIdProducto() in /home/pactive/public_html/faenas/ajax/ajax_productos.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 40
+[29-Jun-2022 06:04:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:04:20 UTC] PHP Notice:  Undefined property: stdClass::$codigo in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 41
+[29-Jun-2022 06:06:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:06:18 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : SELECT id from bodega_central where codigo=''70010'' in /home/pactive/public_html/faenas/includes/Conexion.php:27
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(34): Conexion->consult('SELECT id from ...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(41): productosDao->traeIdProducto(''70010'')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 27
+[29-Jun-2022 06:09:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:10:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:10:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:10:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:10:20 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:10:20 UTC] PHP Warning:  fopen(assets/img/logo.png/): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1232
+[29-Jun-2022 06:11:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:11:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:11:08 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:11:08 UTC] PHP Warning:  fopen(assets/img/logo.png/): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1232
+[29-Jun-2022 06:11:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:11:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:11:29 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:11:29 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:11:29 UTC] PHP Warning:  fopen(assets/img/logo.png/): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1232
+[29-Jun-2022 06:11:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:11:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:11:40 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:11:40 UTC] PHP Warning:  fopen(assets/img/logo.png/): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1232
+[29-Jun-2022 06:12:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:12:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:12:39 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:12:39 UTC] PHP Warning:  fopen(assets/img/logo.png/): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1232
+[29-Jun-2022 06:13:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:13:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:13:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:13:23 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:13:23 UTC] PHP Warning:  fopen(assets/img/logo.png/): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1232
+[29-Jun-2022 06:13:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:13:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:13:54 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:13:54 UTC] PHP Warning:  fopen(assets/img/logo.png/): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1232
+[29-Jun-2022 06:14:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:14:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:14:27 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:14:27 UTC] PHP Warning:  fopen(../assets/img/logo.png/): failed to open stream: No such file or directory in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1232
+[29-Jun-2022 06:15:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:15:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:15:06 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:15:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 81
+[29-Jun-2022 06:17:35 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:17:36 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:17:36 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:18:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:18:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:18:43 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:19:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:19:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:19:14 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:20:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:20:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:20:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:20:40 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:21:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:21:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:21:21 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:21:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:21:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:21:53 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:22:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:22:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:22:52 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:23:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:23:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:23:22 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:24:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:24:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:24:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:24:48 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:25:51 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:25:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:25:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:25:57 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:27:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:27:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:27:06 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[29-Jun-2022 06:29:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:29:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:29:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[29-Jun-2022 06:29:57 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[01-Jul-2022 02:50:27 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[01-Jul-2022 06:10:47 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[01-Jul-2022 06:10:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[01-Jul-2022 14:22:32 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[01-Jul-2022 14:23:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[01-Jul-2022 14:24:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[01-Jul-2022 14:24:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[01-Jul-2022 14:24:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[01-Jul-2022 14:24:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[01-Jul-2022 14:25:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[01-Jul-2022 14:25:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[01-Jul-2022 14:25:30 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[05-Jul-2022 03:58:07 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[12-Jul-2022 04:30:12 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[12-Jul-2022 04:30:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[12-Jul-2022 04:30:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:45:44 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[19-Jul-2022 02:45:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:46:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:46:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:46:06 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[19-Jul-2022 02:46:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:46:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:46:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:47:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:47:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:47:05 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[19-Jul-2022 02:47:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:47:16 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:47:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:47:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 02:47:25 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[19-Jul-2022 02:47:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:02:51 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[19-Jul-2022 04:03:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:03:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:03:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:03:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:03:25 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[19-Jul-2022 04:14:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:16:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:30:34 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:30:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:34:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:36:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:40:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:43:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:44:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:45:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:46:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:48:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:51:18 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Jul-2022 04:52:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 02:44:37 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[27-Jul-2022 03:17:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:20:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:21:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:23:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:23:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:24:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:40:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:41:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:41:06 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 03:41:06 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[27-Jul-2022 03:42:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 04:15:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 04:15:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 04:15:49 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : INSERT INTO movimientos (faena,usuario) values(,)( You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 ) in /home/pactive/public_html/faenas/includes/Conexion.php:67
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(58): Conexion->insert('INSERT INTO mov...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(56): productosDao->grabaPedido(NULL, NULL)
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 67
+[27-Jul-2022 04:16:09 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 04:16:09 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : INSERT INTO movimientos (faena,usuario) values(,)( You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 ) in /home/pactive/public_html/faenas/includes/Conexion.php:67
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(58): Conexion->insert('INSERT INTO mov...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(56): productosDao->grabaPedido(NULL, NULL)
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 67
+[27-Jul-2022 04:17:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 04:17:02 UTC] PHP Notice:  Undefined index: id_faena in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 53
+[27-Jul-2022 04:17:02 UTC] PHP Notice:  Undefined index: id_user in /home/pactive/public_html/faenas/ajax/ajax_productos.php on line 56
+[27-Jul-2022 04:17:02 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : INSERT INTO movimientos (faena,usuario) values(,)( You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 ) in /home/pactive/public_html/faenas/includes/Conexion.php:67
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(58): Conexion->insert('INSERT INTO mov...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(56): productosDao->grabaPedido(NULL, NULL)
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 67
+[27-Jul-2022 04:19:41 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[27-Jul-2022 04:21:12 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 04:21:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 04:21:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[27-Jul-2022 04:21:40 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[10-Aug-2022 19:23:54 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[10-Aug-2022 19:24:08 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[19-Aug-2022 03:40:42 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[19-Aug-2022 03:40:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 02:23:11 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[26-Aug-2022 02:23:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:27:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:44:39 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:44:39 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : SELECT f.*,c.nombre_cat from bodega_faenas f 
+      inner join categorias c on f.categoria=c.id 
+      where f.estado=1 and f.idFaena=<br />
+<b>Notice</b>:  Undefined index: id_faena in <b>/home/pactive/public_html/faenas/plantillas/consumo_faena.php</b> on line <b>191</b><br />
+ order by f.descripcion in /home/pactive/public_html/faenas/includes/Conexion.php:27
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(25): Conexion->consult('SELECT f.*,c.no...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(36): productosDao->listarProductosActivosFaena('<br />\n<b>Notic...')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 27
+[26-Aug-2022 03:44:58 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:45:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:53:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:53:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:53:58 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[26-Aug-2022 03:54:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:55:17 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:55:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:55:43 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : SELECT id from bodega_central where codigo='100789' in /home/pactive/public_html/faenas/includes/Conexion.php:27
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(47): Conexion->consult('SELECT id from ...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(60): productosDao->traeIdProducto('100789')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 27
+[26-Aug-2022 03:55:56 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 03:55:56 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : SELECT id from bodega_central where codigo='100789' in /home/pactive/public_html/faenas/includes/Conexion.php:27
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(47): Conexion->consult('SELECT id from ...')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(60): productosDao->traeIdProducto('100789')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 27
+[26-Aug-2022 04:00:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:00:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:00:25 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[26-Aug-2022 04:00:26 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : SELECT md.*,bc.codigo,bc.descripcion from movimientos_detalle md inner join bodega_central bc on md.idProd=bc.id where md.idMov=3 in /home/pactive/public_html/faenas/includes/Conexion.php:27
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(83): Conexion->consult('SELECT md.*,bc....')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(95): productosDao->detalleVoucher('3')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 27
+[26-Aug-2022 04:01:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:02:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:04:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:04:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:04:44 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[26-Aug-2022 04:04:45 UTC] PHP Fatal error:  Uncaught Exception: Error en la consulta : SELECT md.*,bc.codigo,bc.descripcion from movimientos_detalle md inner join bodega_central bc on md.idProd=bc.id where md.idMov=6 in /home/pactive/public_html/faenas/includes/Conexion.php:27
+Stack trace:
+#0 /home/pactive/public_html/faenas/DAO/ProductosDao.php(83): Conexion->consult('SELECT md.*,bc....')
+#1 /home/pactive/public_html/faenas/ajax/ajax_productos.php(95): productosDao->detalleVoucher('6')
+#2 {main}
+  thrown in /home/pactive/public_html/faenas/includes/Conexion.php on line 27
+[26-Aug-2022 04:06:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:06:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:06:33 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[26-Aug-2022 04:08:28 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:08:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:08:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:08:42 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[26-Aug-2022 04:22:45 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:26:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:26:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:26:38 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:27:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:35:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:36:27 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:36:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:37:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:37:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:37:30 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[26-Aug-2022 04:44:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:45:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[26-Aug-2022 04:48:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[08-Sep-2022 20:00:35 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[08-Sep-2022 20:03:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[28-Sep-2022 19:39:43 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[28-Sep-2022 19:39:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 18:42:28 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[10-Oct-2022 18:43:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 18:44:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 18:46:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 18:47:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 18:47:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 18:48:52 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 21:14:58 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[10-Oct-2022 21:15:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 21:16:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 21:16:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 21:16:59 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 21:16:59 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 1054
+[10-Oct-2022 21:17:13 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 21:17:41 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 21:18:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[10-Oct-2022 21:18:54 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
+[18-Oct-2022 21:27:40 UTC] PHP Notice:  Array to string conversion in /home/pactive/public_html/faenas/ajax/ajax_login.php on line 26
+[18-Oct-2022 21:27:50 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; FPDF has a deprecated constructor in /home/pactive/public_html/faenas/resources/pdf/fpdf.php on line 12
